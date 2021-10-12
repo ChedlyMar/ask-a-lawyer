@@ -1,0 +1,32 @@
+.btn-goupe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-groupe > .submit {
+  margin-right: 2em;
+}
+.custom-file-upload {
+  border: 1px solid #ccc;
+  /* display: inline-block; */
+  padding: 6px 12px;
+  cursor: pointer;
+
+  float: left;
+  width: 30%;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  font-size: 17px;
+  /* padding: 0px 25px; */
+  /* height: 54px; */
+  /* color: #14213d;
+  font-family: Averta-Regular; */
+  /* border: 1px solid #eae4db;
+  border-radius: 4px;
+  background-color: #fff; */
+  /* box-shadow: none; */
+  text-align: center;
+}
+input[type="file"] {
+  display: none;
+}

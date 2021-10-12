@@ -1,0 +1,4 @@
+.message-flow {
+  /* height: inherit; */
+  overflow-y: scroll;
+}

@@ -1,0 +1,10 @@
+.db-container {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.db-container h2,
+.db-container h3 {
+  margin-top: 2em;
+}

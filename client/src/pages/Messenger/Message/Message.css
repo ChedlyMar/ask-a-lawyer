@@ -1,0 +1,48 @@
+.messages {
+  display: flex;
+  flex-direction: column;
+  padding: 0.4em 1em;
+}
+
+.sent-msg {
+  display: flex;
+  flex-direction: row-reverse;
+  align-self: flex-end;
+  padding-left: 0.2em;
+  text-align: left;
+  background-color: var(--main-bg-color);
+  max-width: 80%;
+  border-radius: 0.6em;
+}
+
+.recived-msg {
+  display: flex;
+  align-self: flex-start;
+  padding-right: 2em;
+  text-align: left;
+  background-color: #f0f4fc;
+  max-width: 80%;
+  border-radius: 0.6em;
+}
+.message-alias {
+  text-align: left;
+}
+
+.message-alias > img {
+  width: 32px;
+  padding: 0.6em;
+}
+.sent-msg > label {
+  color: var(--third-color);
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+  padding-left: 0.8em;
+  font-family: var(--main-font);
+}
+.recived-msg > label {
+  color: var(--primary-color);
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+  padding-left: 0.8em;
+  font-family: var(--main-font);
+}

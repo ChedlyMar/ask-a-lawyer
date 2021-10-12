@@ -1,0 +1,25 @@
+.info-container {
+  max-width: 760px;
+  min-width: 460px;
+  margin: 6em auto;
+  padding: 4em;
+  box-shadow: 0 10px 30px rgb(20 33 61 / 15%);
+  border-radius: 2em;
+  background-color: var(--primary-bg-color);
+}
+
+.info-block {
+  display: flex;
+}
+
+.info-block > label {
+  width: 6em;
+  text-align: left;
+}
+.btn-back {
+  padding-top: 2.4em;
+}
+.btn-back > a {
+  font-size: 1.2em;
+  color: var(--main-color);
+}

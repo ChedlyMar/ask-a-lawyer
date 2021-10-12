@@ -1,0 +1,15 @@
+.input > textarea {
+  float: left;
+  width: 80%;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  font-size: 17px;
+  padding: 10px 25px;
+  color: #14213d;
+  font-family: Averta-Regular;
+  border: 1px solid #eae4db;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: none;
+  text-align: left;
+}

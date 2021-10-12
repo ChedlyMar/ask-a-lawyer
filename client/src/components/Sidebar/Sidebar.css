@@ -1,0 +1,38 @@
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em;
+  height: 70%;
+}
+
+.upper-side-nav {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4em;
+}
+
+.upper-side-nav > .page {
+  margin: 1em;
+}
+
+.upper-side-nav > .page > a {
+  font-size: 1.2em;
+}
+.down-side-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.down-side-nav > .btn {
+  margin: 1em;
+}
+
+.down-side-nav > .btn > button {
+  font-size: 1em;
+  width: 100%;
+}
+
+.down-side-nav > .btn > a {
+  font-size: 1em;
+}

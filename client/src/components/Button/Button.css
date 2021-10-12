@@ -1,0 +1,17 @@
+.button {
+  padding: 0.8em 1.4em;
+  font-family: Averta-Regular;
+  font-size: 1.3em;
+  background-color: var(--main-bg-color);
+  color: var(--third-color);
+  border: none;
+  margin-top: 2em;
+  border-radius: 0.8em;
+  margin-left: 1.2em;
+  letter-spacing: 1px;
+}
+.button:hover {
+  cursor: pointer;
+  filter: brightness(90%);
+  transition: ease 0.3s;
+}

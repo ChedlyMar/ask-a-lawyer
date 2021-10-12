@@ -1,0 +1,13 @@
+.dash-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  width: auto;
+}
+.Sidebar {
+  flex: 1;
+  box-shadow: 30px 0 30px -30px rgb(20 33 61 / 15%);
+}
+.Outlet {
+  flex: 5;
+}

@@ -1,0 +1,22 @@
+---------------------------   setup project   ------------------------------------------------
+- create priject
+    npm init -y
+
+- install dependencies 
+  npm i express mongoose
+
+- install dev dependencies
+  npm i --save-dev nodemoon dotenv concurrently
+
+---------------------------   create server   ------------------------------------------------
+- express
+- dotenv
+- script
+---------------------------   connect server with mongoose   ------------------------------------------------
+- reate db mongo atlas
+- .env : uri
+- dbConnect : mongoose.connect
+---------------------------   create routs   ------------------------------------------------
+- create Models
+- create routes
+- hash password bcrypt

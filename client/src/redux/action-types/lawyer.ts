@@ -1,0 +1,10 @@
+export const GET_LAWYER = "GET_LAWYER"
+export const GET_ALL_LAWYERS = "GET_ALL_LAWYERS"
+export const REGISTER_LAWYER = "REGISTER_LAWYER";
+export const LOGIN_LAWYER = "LOGIN_LAWYER";
+export const LOGOUT_LAWYER = "LOGOUT_LAWYER";
+export const LOAD_LAWYER = "LOAD_LAWYER";
+export const FAIL_LAWYER = "FAIL_LAWYER";
+export const CURRENT_LAWYER = "CURRENT_LAWYER";
+export const UPDATE_LAWYER = "UPDATE_LAWYER"
+export const DELETE_LAWYER = "DELETE_LAWYER"

@@ -1,0 +1,148 @@
+section {
+  padding: 2em 0 4em 0;
+}
+h1 {
+  font-size: 4.4em;
+  color: var(--primary-color);
+  font-family: Averta-Bold-Regular;
+  margin: 0.1em 0em 0.1em 0em;
+}
+.first {
+  margin: 1em 0 0.1em 0;
+  color: var(--main-color);
+}
+span {
+  font-size: 0.5em;
+  color: var(--primary-color);
+  font-family: Averta-Bold-Regular;
+}
+h2 {
+  font-size: 2em;
+  margin-top: 0.4em;
+  color: var(--primary-color);
+  font-family: Averta-Regular;
+}
+
+h5 {
+  margin-top: 3em;
+  margin-bottom: 0.4em;
+  font-size: 1.4em;
+  line-height: 34px;
+  /* color: #656b77; */
+  /* padding: 0 200px; */
+
+  color: #3044b5;
+  line-height: normal;
+}
+.btns {
+  padding-top: 2em;
+}
+.chat {
+  width: fit-content;
+}
+
+.cards {
+  margin-top: 4em;
+  display: flex;
+  justify-content: space-around;
+  padding: 2em 6em;
+}
+.card {
+  margin: 1em 2em;
+  text-align: left;
+  float: left;
+}
+
+h3 {
+  font-size: 1.6em;
+  color: var(--primary-color);
+  text-align: left;
+  /* font-family: Averta-Regular; */
+}
+h3:before {
+  /* position: static; */
+  content: url("./check-red.png");
+  /* left: -8px; */
+  /* top: 4px; */
+  /* width: 23px;
+  height: 21px;
+  background-image: url("./check-red.png");
+  background-repeat: no-repeat;
+  background-size: 21px; */
+}
+p {
+  padding-left: 2em;
+  text-align: left;
+  /* width: 100%; */
+  font-size: 1.2em;
+  line-height: 27px;
+  color: var(--secondary-color);
+  padding-top: 0.6em;
+  /* font-weight: normal; */
+  /* padding-left: 46px; */
+  /* position: relative; */
+}
+
+.partners-logos {
+  width: 760px;
+  margin: 3em auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.partners-logo {
+  margin: 2em;
+}
+
+.testemonials {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+  margin-top: 4em;
+}
+.testemonial {
+  border: solid 1px var(--secondary-color);
+  /* width: 20%; */
+  padding: 1em;
+  margin-left: 2em;
+  box-shadow: 0 10px 30px rgb(20 33 61 / 15%);
+  border-radius: 4px;
+}
+.testemonial > p {
+  font-size: 1em;
+}
+
+.profile {
+  display: flex;
+  margin-top: 1em;
+}
+
+.img-profile {
+  width: 100px;
+  padding-left: 2em;
+}
+.img-profile > img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.info-profile > p,
+.info-profile > h4 {
+  padding-left: 1em;
+  font-size: 1em;
+}
+
+h4 {
+  text-align: left;
+  margin-top: 0.4em;
+  font-size: 1.4em;
+  line-height: 34px;
+  color: #3044b5;
+  line-height: normal;
+}
+
+.landing-page {
+  width: 80%;
+  margin: auto;
+  margin: 3em auto;
+}

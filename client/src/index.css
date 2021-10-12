@@ -1,0 +1,73 @@
+@import url(//db.onlinewebfonts.com/c/150037e11f159dca84bc4c04549094b6?family=Averta-Regular);
+:root {
+  /* back ground color */
+  --main-bg-color: #ea1d5d;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #656b77;
+  --third-bg-color: #f8f8f8;
+
+  /* font color */
+  --main-color: #ea1d5d;
+  --primary-color: #14213d;
+  --secondary-color: #656b77;
+  --third-color: #ffffff;
+
+  /* font family  */
+  --main-font: "Averta-Regular";
+}
+@font-face {
+  font-family: "Averta-Regular";
+  src: url("./fonts/muli-regular-webfont.woff2") format("woff2"),
+    url("./fonts/muli-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Averta-Bold-Regular";
+  src: url("./fonts/muli-bold-webfont.woff2") format("woff2"),
+    url("./fonts/muli-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Averta-Light-Regular";
+  src: url("./fonts/muli-light-webfont.woff2") format("woff2"),
+    url("./fonts/muli-light-webfont.woff") format("woff");
+  font-weight: "normal";
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Averta-Regular;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  /* background-color: #fbf9f6; */
+  /* background-color: var(--primary-bg-color); */
+}
+/* .avatar-container {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+} */
+.avatar-container {
+  margin-bottom: 2em;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
